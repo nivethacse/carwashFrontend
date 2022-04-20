@@ -19,7 +19,7 @@ function Nav(){
         <nav className="navbar navbar-expand-lg navbar-light navs">
             {/* <a className="navbar-brand" href="/">Navbar</a> */}
             <div style={{width:"100px" , height:"60px" , marginRight:"25px" , marginLeft:"15px"}}>
-                <img src="./images/logo.png" alt="brandLogo" style={{width:"100%" , height:"100%"}}/>
+                <img src="./images/navLogo.jpg" alt="brandLogo" style={{width:"100%" , height:"100%"}}/>
             </div>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
