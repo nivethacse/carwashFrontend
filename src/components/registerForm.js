@@ -75,7 +75,7 @@ function RegisterForm(){
         <div className="loginDiv">
             <div className="loginForm">
                 <div style={{width:"auto"}}>
-                    <img src="./images/shops.png" alt="c" className="logInImages"/>
+                    <img src="./images/toolsPic.jpg" alt="c" className="logInImages"/>
                     {/* <p>yess done</p> */}
                 </div>
                 <div style={{width:"100%"}}>
