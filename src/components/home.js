@@ -41,19 +41,19 @@ function Home (){
         <Nav/>
         <div className="titleDiv" id="firstDiv">
             <div className="titleContent">
-                <p className="t1">FASTEST</p>
+                <p className="t1">AFFORDABLE</p>
                 <p className="t1">AND</p>
-                <p className="t1">DETAILED</p>
-                <p className="t1 t2">CAR WASHING</p>
+                <p className="t1">BEST</p>
+                <p className="t1 t2">EQUIPMENT RENTAL</p>
                 <button className="bookActionBtn" onClick={()=>{history.push("/appointment_form")}}>Book Now <i className="fas fa-arrow-right rightArw"></i></button>
             </div>
             <div className="imgDiv">
-                <img src="./images/carWash.jpg" alt="washImage" className="washImages"/>
+                <img src="./images/homeLogo.jpg" alt="washImage" className="washImages"/>
             </div>
         </div>
         <div className="div2">
             <p className="p1">Why Choose Us</p>
-            <p className="p2">THE BEST CAR WASH</p>
+            <p className="p2">FOR YOUR NEXT EQUIPMENT RENTAL </p>
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-lg-4 col-md-6">
@@ -64,8 +64,7 @@ function Home (){
                             <div>
                                 <p className="d1">Easy Booking</p>
                                 <p className="description">First thing first, you’ll need to either 
-                                    book an appointment with us or just drop by and 
-                                    see if we have vacant time slot!</p>
+                                    book an rental with us </p>
                             </div>
                         </div>
                     </div>
@@ -76,9 +75,7 @@ function Home (){
                             </div>
                             <div>
                                 <p className="d1">Perfect Servicing</p>
-                                <p className="description">First thing first, you’ll need to either 
-                                    book an appointment with us or just drop by and 
-                                    see if we have vacant time slot!</p>
+                                <p className="description">Best service on the industry so far.</p>
                             </div>
                         </div>
                     </div>
@@ -88,10 +85,8 @@ function Home (){
                             <i className="fas fa-hand-holding-usd fa-3x ic1"></i>
                             </div>
                             <div>
-                                <p className="d1">Awesome Priceing</p>
-                                <p className="description">First thing first, you’ll need to either 
-                                    book an appointment with us or just drop by and 
-                                    see if we have vacant time slot!</p>
+                                <p className="d1">Awesome Pricing</p>
+                                <p className="description">Most Affordable for wide range of equipments.</p>
                             </div>
                         </div>
                     </div>
@@ -105,9 +100,8 @@ function Home (){
                 </div>
                 <div className="priceDescription">
                     <p className="c2">
-                        Choosing Car wash is a constant process in the life of
-                        every motorist. We try to give you Only positive emotions.
-                        Entrust your car cleaning to our professionals
+                        Choosing Equipments is a constant process in the life of
+                        every engineer. We try to give you Only positive emotions.
                     </p>
                 </div>
             </div>
@@ -117,18 +111,18 @@ function Home (){
                     <div className="col-lg-4 orderRow">
                         <div>
                             <div>
-                                <p className="o1">Rs. 1999</p>
-                                <p className="o2">BASIC WASH</p>
+                                <p className="o1">Rs.199</p>
+                                <p className="o2">TOOLS SET</p>
                             </div>
                             <div>
-                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Exterior Hand Wash</p>
-                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Wheel Shine</p>
-                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Tire Dressing</p>
-                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Windows in and out</p>
-                                <p><i className="fas fa-times" style={{color:"red"  , marginRight:"15px"}}></i>Interior Vaccum</p>
-                                <p><i className="fas fa-times" style={{color:"red" , marginRight:"15px"}}></i>Dashboard Clean</p>
-                                <p><i className="fas fa-times" style={{color:"red" , marginRight:"15px"}}></i>Febreze Odor Eliminator</p>
-                                <p><i className="fas fa-times" style={{color:"red" , marginRight:"15px"}}></i>Hand Dry</p>
+                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Screwdrivers</p>
+                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Hammers</p>
+                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Pliers</p>
+                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Measurement Tape</p>
+                                <p><i className="fas fa-check" style={{color:"green"  , marginRight:"15px"}}></i>Wrenches</p>
+                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Hand Saw</p>
+                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Utility Knife</p>
+                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Axes</p>
                                 <button className="bookBtn" onClick={()=>{order(1)}}>Order Now <i className="fas fa-arrow-right rightArw"></i></button>
                             </div>
                         </div>
@@ -136,18 +130,18 @@ function Home (){
                     <div className="col-lg-4 orderRow2">
                         <div>
                             <div>
-                                <p className="o1">Rs. 2999</p>
-                                <p className="o2">DELUXE WASH</p>
+                                <p className="o1">Rs.250</p>
+                                <p className="o2">WRENCH SET</p>
                             </div>
                             <div>
-                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Exterior Hand Wash</p>
-                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Wheel Shine</p>
-                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Tire Dressing</p>
-                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Windows in and out</p>
-                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Interior Vaccum</p>
-                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Dashboard Clean</p>
-                                <p><i className="fas fa-times" style={{color:"red" ,marginRight:"15px"}}></i>Febreze Odor Eliminator</p>
-                                <p><i className="fas fa-times" style={{color:"red" , marginRight:"15px"}}></i>Hand Dry</p>
+                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Pedal Wrench</p>
+                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Monkey wrench</p>
+                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Pliers Wrench</p>
+                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Strap wrench</p>
+                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Plumber's Wrench</p>
+                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Tap Wrench</p>
+                                <p><i className="fas fa-check" style={{color:"green", marginRight:"15px"}}></i>Spud Wrench</p>
+                                <p><i className="fas fa-check" style={{color:"green", marginRight:"15px"}}></i>Alligator Wrench</p>
                                 <button className="bookBtn" onClick={()=>{order(2)}}>Order Now <i className="fas fa-arrow-right rightArw"></i></button>
                             </div>
                         </div>
@@ -155,18 +149,18 @@ function Home (){
                     <div className="col-lg-4 orderRow3">
                         <div>
                             <div>
-                                <p className="o1">Rs. 3999</p>
-                                <p className="o2">ULTIMATE WASH</p>
+                                <p className="o1">Rs.399</p>
+                                <p className="o2">FORGE TOOLS SET</p>
                             </div>
                             <div>
-                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Exterior Hand Wash</p>
-                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Wheel Shine</p>
-                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Tire Dressing</p>
-                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Windows in and out</p>
-                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Interior Vaccum</p>
-                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Dashboard Clean</p>
-                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Febreze Odor Eliminator</p>
-                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Hand Dry</p>
+                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Anvil</p>
+                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Chisel</p>
+                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Tong</p>
+                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Fuller</p>
+                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Hammer</p>
+                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Flatter</p>
+                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Swage</p>
+                                <p><i className="fas fa-check" style={{color:"green" , marginRight:"15px"}}></i>Clamping vice</p>
                                 <button className="bookBtn" onClick={()=>{order(3)}}>Order Now <i className="fas fa-arrow-right rightArw"></i></button>
                             </div>
                         </div>
@@ -176,7 +170,7 @@ function Home (){
         </div>
         </div>
         <div className="workedBrands">
-            <div className="servicBrands">
+            {/* <div className="servicBrands">
                 <p className="sr1">WE'VE COVERED EVERY BRANDS</p>
             </div>
             <div>
@@ -204,7 +198,7 @@ function Home (){
                     </div>
                 </div>
             </div>
-            </div>
+            </div> */}
         </div>
         <div className="footer" id="aboutUs_contactUs">
             <div className="container">
@@ -237,7 +231,7 @@ function Home (){
                             </div>
                             <div>
                                 <p className="footer2">Contact</p>
-                                <p className="footer2">(+91) 7865439031</p>
+                                <p className="footer2">(+91) 7865539088</p>
                             </div>               
                         </div>
                         <div className="footerIcons">
@@ -246,7 +240,7 @@ function Home (){
                             </div>
                             <div>
                                 <p className="footer2">We're HERE</p>
-                                <p className="footer2">Phule road , shop no-1 , Royal Chambers , Kolhapur - 435673 </p>
+                                <p className="footer2">no.2/4 main road ,shop no-1 , Royal Chambers , Chennai - 600023 </p>
                             </div>   
                         </div>
                     </div>
