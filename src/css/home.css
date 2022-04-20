@@ -2,14 +2,14 @@
 
 .titleDiv{
     padding: 30px 100px;
-    background-color: #e2f2f7;
+    background-color: #e2f7e3;
     color: black;
     font-family: 'Oswald', sans-serif;
     position: relative;
 }
 
 .navs{
-    background-color: #e2f2f7;
+    background-color: #e2f7e3;
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -43,7 +43,7 @@
 }
 
 .t2{
-    color: rgb(40, 182, 238);
+    color: rgb(18, 139, 68);
 }
 
 .imgDiv{
@@ -84,7 +84,7 @@
 
 .rightArw{
     margin-left: 8px;
-    color: rgb(40, 182, 238);
+    color: rgb(18, 139, 68);
 }
 
 .div2{
@@ -106,7 +106,7 @@
 .callIcon{
     width: 90px;
     height: 80px;
-    background-color: #e2f2f7;
+    background-color: rgb(18, 139, 68);
     text-align: center;
     border-radius: 0.5rem;
     margin-bottom: 12px;
@@ -115,7 +115,7 @@
 
 .ic1{
     margin-top: 16px;
-    color: rgb(40, 182, 238);
+    color: rgb(255, 255, 255);
 }
 
 .d1{
@@ -137,7 +137,7 @@
 
 .priceingParent{
     padding: 90px 200px 130px 200px;
-    background-color: rgb(18, 18, 139);
+    background-color: rgb(18, 139, 68);
     position: relative;
 }
 
@@ -177,7 +177,7 @@
     font-size: 2.5rem;
     margin-bottom: 4px;
     font-weight: bold;
-    color:rgb(40, 182, 238) ;
+    color:rgb(18, 139, 68) ;
 }
 
 .o2{
@@ -217,7 +217,7 @@
 }
 
 .bookBtn:hover{
-    background-color: rgb(40, 182, 238);
+    background-color: rgb(18, 139, 68);
     transform:scale(1.1)
 }
 
@@ -225,8 +225,7 @@
 
 .formTop{
     padding: 30px;
-    
-    background-color: rgb(18, 18, 139);
+    background-color: rgb(18, 139, 68);
 }
 
 .formTitle{
@@ -239,7 +238,7 @@
     width: 800px;
     margin: 40px auto;
     padding: 50px  30px;
-    background-color:#e2f2f7;
+    background-color:#e2f7e3;
     border-radius: 0.4rem;
     box-shadow: 10px 10px 10px rgb(194, 194, 194 , 0.5);
 }
@@ -382,7 +381,7 @@
 .footer{
     padding: 80px 0px 40px 0px;
     margin-top: 140px;
-    background-color:rgb(18, 18, 139) ;
+    background-color: rgb(18, 139, 68);
 }
 
 .footer1{
@@ -417,7 +416,7 @@
 
 .ficon{
     margin-top: 8px;
-    color: rgb(40, 182, 238);
+    color: rgb(255 255 255);
 }
 
 
