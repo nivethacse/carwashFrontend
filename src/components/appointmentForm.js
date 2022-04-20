@@ -155,9 +155,9 @@ toast.configure()
                     <div style={{marginBottom:"20px"}}>
                         <select className="contactDetails" name="serviceType" value={serviceType}  onChange={(event)=>{setServiceType(event.target.value)}}>
                             <option className="opt1">Service Types</option>
-                            <option>BASIC WASH Rs.1999</option>
-                            <option>DELUX WASH Rs.2999</option>
-                            <option>ULTIMATE WASH Rs.3999</option>
+                            <option>TOOLS SET Rs.199</option>
+                            <option>WRENCH SET Rs.250</option>
+                            <option>FORGE TOOLS SET Rs.399</option>
                         </select>
                     </div>
                     <div style={{marginBottom:"30px"}}>
